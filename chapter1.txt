@@ -1,0 +1,511 @@
+Installing git in VSC 
+
+https://git-scm.com/downloads - Link to download git in pc
+
+After downloading and installing git in pc - In the windows command prompt write the following command 👍
+
+C:\Users\skand>git --version
+git version 2.46.0.windows.1
+
+C:\Users\skand>git config --global user.name "Shiwani"
+
+C:\Users\skand>git config --global user.email "kandpalshiwani1999@gmail.com"
+
+C:\Users\skand>
+
+
+Inside VS Code Editor 
+Go to File > Preferences > Settings > Git
+
+
+Git command line code - Write following command in VS Code Editor
+
+skand@ShiwaniKandpal MINGW64 ~
+$ cd ..
+
+skand@ShiwaniKandpal MINGW64 /c/Users
+$ cd ..
+
+skand@ShiwaniKandpal MINGW64 /c
+$ cd ..
+
+skand@ShiwaniKandpal MINGW64 /
+$ cd /d
+
+skand@ShiwaniKandpal MINGW64 /d
+$ cd D-drive/
+
+skand@ShiwaniKandpal MINGW64 /d/D-drive
+$ cd "Complete 20224 Web Development Bootcamp - Udemy"
+
+skand@ShiwaniKandpal MINGW64 /d/D-drive/Complete 20224 Web Development Bootcamp - Udemy
+$ cd "git github and version control-new-11-09-24"/
+
+skand@ShiwaniKandpal MINGW64 /d/D-drive/Complete 20224 Web Development Bootcamp - Udemy/git github and version control-new-11-09-24
+$ mkdir Story
+
+skand@ShiwaniKandpal MINGW64 /d/D-drive/Complete 20224 Web Development Bootcamp - Udemy/git github and version control-new-11-09-24
+$ cd Story/
+
+skand@ShiwaniKandpal MINGW64 /d/D-drive/Complete 20224 Web Development Bootcamp - Udemy/git github and version control-new-11-09-24/Story
+$
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Creating Directory using git bash command line
+
+mkdir “directory name/folder name”
+#my directory/folder name is “git-story”
+
+Amit@DESKTOP-KSP91BK MINGW64 /d/Complete 20224 Web Development Bootcamp - Udemy/git github and version control/git-story (main)
+$ mkdir "git-story"
+
+
+Open Directory using git bash command line
+t
+$ cd git-story/
+
+
+Getting Out of Directory using git bash command line
+
+$ cd ../..
+
+
+Creating Files using git bash command line
+
+$ touch filename.extension
+
+#my file name is “chapter1.txt” , “chapter2.txt” , “chapter3.txt” , “chapter4.txt” 
+
+skand@ShiwaniKandpal MINGW64 /d/D-drive/Complete 20224 Web Development Bootcamp - Udemy/git github and version control-new-11-09-24/Story
+$ touch chapter1.txt
+
+skand@ShiwaniKandpal MINGW64 /d/D-drive/Complete 20224 Web Development Bootcamp - Udemy/git github and version control-new-11-09-24/Story
+$ touch chapter2.txt
+
+skand@ShiwaniKandpal MINGW64 /d/D-drive/Complete 20224 Web Development Bootcamp - Udemy/git github and version control-new-11-09-24/Story
+$ touch chapter3.txt
+
+skand@ShiwaniKandpal MINGW64 /d/D-drive/Complete 20224 Web Development Bootcamp - Udemy/git github and version control-new-11-09-24/Story
+$ touch chapter4.txt
+
+
+
+Opening each file inside VSC (Visual studio Code /or any editor
+
+$ code filename.txt
+
+
+skand@ShiwaniKandpal MINGW64 /d/D-drive/Complete 20224 Web Development Bootcamp - Udemy/git github and version control-new-11-09-24/Story
+$ code chapter1.txt
+
+skand@ShiwaniKandpal MINGW64 /d/D-drive/Complete 20224 Web Development Bootcamp - Udemy/git github and version control-new-11-09-24/Story
+$ code chapter2.txt
+
+skand@ShiwaniKandpal MINGW64 /d/D-drive/Complete 20224 Web Development Bootcamp - Udemy/git github and version control-new-11-09-24/Story
+$ code chapter3.txt
+
+skand@ShiwaniKandpal MINGW64 /d/D-drive/Complete 20224 Web Development Bootcamp - Udemy/git github and version control-new-11-09-24/Story
+$ code chapter4.txt
+
+Opening All File At Once
+
+$ code filename1.extension filename2.extension filename3.extension filename4.extension
+
+skand@ShiwaniKandpal MINGW64 /d/D-drive/Complete 20224 Web Development Bootcamp - Udemy/git github and version control-new-11-09-24/Story
+$ code chapter1.txt chapter2.txt chapter3.txt 
+‘
+
+
+
+Creating Author Identity
+
+git config --global user.email "you@example.com"
+git config --global user.name "Your Name"
+
+# I used my email id i.e.  kandpalshiwani1999@gmail.com
+# i used author name “Shiwani”
+
+skand@ShiwaniKandpal MINGW64 /d/D-drive/Complete 20224 Web Development Bootcamp - Udemy/git github and version control-new-11-09-24/Story
+$  git config --global user.email "kandpalshiwani1999@gmail.com"
+
+skand@ShiwaniKandpal MINGW64 /d/D-drive/Complete 20224 Web Development Bootcamp - Udemy/git github and version control-new-11-09-24/Story
+$   git config --global user.name "Shiwani"
+
+
+
+Displaying Status of working directory and staging area using git bash command line
+
+$ git status
+
+skand@ShiwaniKandpal MINGW64 /d/D-drive/Complete 20224 Web Development Bootcamp - Udemy/git github and version control-new-11-09-24/Story
+$ git status
+
+
+
+Display a History of commits in the repository
+
+$ git log
+
+skand@ShiwaniKandpal MINGW64 /d/D-drive/Complete 20224 Web Development Bootcamp - Udemy/git github and version control-new-11-09-24/Story
+$ git log
+commit 77ada009ea49f12b9e28b2da7a3560d532c251ce (HEAD -> main)
+Author: Shiwani <kandpalshiwani1999@gmail.com>
+Date:   Mon Jun 10 13:54:02 2024 +0530
+
+
+Stage changes (new files, modifications, deletions) for the next commit using git bash command line
+
+$ git add
+
+
+
+Stages all tracked, modified files and commits them in one step using git bash command line
+
+$ git commit -a
+
+
+Showing the differences between changes in your working directory and the staging area or between commits using git bash command line
+
+$ git diff filename.extension
+
+skand@ShiwaniKandpal MINGW64 /d/D-drive/Complete 20224 Web Development Bootcamp - Udemy/git github and version control-new-11-09-24/Story
+$ git diff chapter3.txt
+diff --git a/git-story/chapter3.txt b/git-story/chapter3.txt
+index fba3f88..86467bf 100644
+--- a/git-story/chapter3.txt
++++ b/git-story/chapter3.txt
+@@ -1,2 +1,4 @@
+ As the rain kissed the emerald landscape, a poetic symphony unfolded, each drop a verse in nature's timeless ode.
+-The scent of wet earth and leaves filled the air, a primordial aroma that awakened the senses and in this fleeting moment, the world was reborn, its beauty and wonder renewed, as if the rain kissed the emerald landscape, a poetic symphony unfolded, each drop a verse in
+\ No newline at end of file
++The scent of wet earth and leaves filled the air, a primordial aroma that awakened the senses and in this fleeting moment, the world was reborn, its beauty and wonder renewed, as if the rain kissed the emerald landscape, a poetic symphony unfolded, each drop a ve:
+
+
+{ //green color indicates addition in the file content
+//red color indicates deletion in the file content }
+
+
+Switch branches or restore working directory files to a specific state  using git bash command line
+
+$ git checkout
+
+Push Commits into the local repository
+
+$ git remote add <remote name> url
+
+In short, $ git remote add name url
+
+skand@ShiwaniKandpal MINGW64 /d/D-drive/Complete 20224 Web Development Bootcamp - Udemy/git github and version control-new-11-09-24/Story
+$ git remote add origin https://github.com/shiwani0299/git-story-today.git
+
+// We have used name / remote name as  “origin”
+
+Push local repository into remote repository
+
+$ git push -u <remote name> <branch name>
+
+In short,  $ git push -u name main
+
+
+skand@ShiwaniKandpal MINGW64 /d/D-drive/Complete 20224 Web Development Bootcamp - Udemy/git github and version control-new-11-09-24/Story
+$ git push -u origin main
+
+
+skand@ShiwaniKandpal MINGW64 /d/D-drive/Complete 20224 Web Development Bootcamp - Udemy/git github and version control-new-11-09-24/Story
+$ git push -u origin main
+Enumerating objects: 12, done.
+Counting objects: 100% (12/12), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (11/11), done.
+Writing objects: 100% (12/12), 3.02 KiB | 1.51 MiB/s, done.
+Total 12 (delta 4), reused 0 (delta 0), pack-reused 0 (from 0)
+remote: Resolving deltas: 100% (4/4), done.
+To https://github.com/shiwani0299/git-story-today.git
+ * [new branch]      main -> main
+branch 'main' set up to track 'origin/main'.
+
+skand@ShiwaniKandpal MINGW64 /d/D-drive/Complete 20224 Web Development Bootcamp - Udemy/git github and version control-new-11-09-24/Story
+$
+
+
+
+
+
+
+
+
+
+Working Directory → Staging Area → Local Repository → Remote Repository
+                             git add                         git commit
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+The code in git bash command line up till now : 
+
+#We are working inside the "Story" directory which can also be  called "Working Directory".
+
+skand@ShiwaniKandpal MINGW64 /d/D-drive/Complete 20224 Web Development Bootcamp - Udemy/git github and version control-new-11-09-24/Story
+$ mkdir git-story-today
+
+Amit@DESKTOP-KSP91BK MINGW64 /d/Complete 20224 Web Development Bootcamp - Udemy/git github and version control (main)
+$ cd git-story-today/
+
+skand@ShiwaniKandpal MINGW64 /d/D-drive/Complete 20224 Web Development Bootcamp - Udemy/git github and version control-new-11-09-24/Story
+$ touch chapter1.txt
+
+skand@ShiwaniKandpal MINGW64 /d/D-drive/Complete 20224 Web Development Bootcamp - Udemy/git github and version control-new-11-09-24/Story
+$ touch chapter2.txt
+
+skand@ShiwaniKandpal MINGW64 /d/D-drive/Complete 20224 Web Development Bootcamp - Udemy/git github and version control-new-11-09-24/Story
+$ touch chapter3.txt
+
+skand@ShiwaniKandpal MINGW64 /d/D-drive/Complete 20224 Web Development Bootcamp - Udemy/git github and version control-new-11-09-24/Story
+$ touch chapter4.txt
+
+skand@ShiwaniKandpal MINGW64 /d/D-drive/Complete 20224 Web Development Bootcamp - Udemy/git github and version control-new-11-09-24/Story
+$ code chapter1.txt
+
+skand@ShiwaniKandpal MINGW64 /d/D-drive/Complete 20224 Web Development Bootcamp - Udemy/git github and version control-new-11-09-24/Story
+$ code chapter2.txt
+
+skand@ShiwaniKandpal MINGW64 /d/D-drive/Complete 20224 Web Development Bootcamp - Udemy/git github and version control-new-11-09-24/Story
+$ code chapter3.txt
+
+skand@ShiwaniKandpal MINGW64 /d/D-drive/Complete 20224 Web Development Bootcamp - Udemy/git github and version control-new-11-09-24/Story
+$ code chapter4.txt
+
+Below are the commands after the command written in  chapter2.txt File in continuation with chapter1.txt file.
+
+$ git init
+Initialized empty Git repository in D:/Complete 20224 Web Development Bootcamp - Udemy/git github and version control/git-story-today/.git/
+
+skand@ShiwaniKandpal MINGW64 /d/D-drive/Complete 20224 Web Development Bootcamp - Udemy/git github and version control-new-11-09-24/Story
+$ ls -a
+./  ../  .git/  chapter1.txt  chapter2.txt  chapter3.txt  chapter4.txt
+
+skand@ShiwaniKandpal MINGW64 /d/D-drive/Complete 20224 Web Development Bootcamp - Udemy/git github and version control-new-11-09-24/Story
+$ git status
+On branch main
+
+No commits yet
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        chapter1.txt
+        chapter2.txt
+        chapter3.txt
+        chapter4.txt
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+skand@ShiwaniKandpal MINGW64 /d/D-drive/Complete 20224 Web Development Bootcamp - Udemy/git github and version control-new-11-09-24/Story
+$ git add chapter1.txt
+
+skand@ShiwaniKandpal MINGW64 /d/D-drive/Complete 20224 Web Development Bootcamp - Udemy/git github and version control-new-11-09-24/Story
+$ git status
+On branch main
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+        new file:   chapter1.txt
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        chapter2.txt
+        chapter3.txt
+        chapter4.txt
+
+
+
+Below is the explanation of all the command written in chaper2.txt file
+
+
+#NOTE: 
+//git init command to initialize git in the required directory 
+//ls -a command to see all the hidden files, to track all changes, to commit changes, and to perform version control.
+
+// We want to add the file (chapter1.txt) to a staging area inside the working directory. Staging area is an intermediate place where we can pick and choose which file inside your working directory that you want to commit.
+
+// git status command is used to see what actually is inside your staging area.
+ => this will show untracted file (shown in red color) which is inside the working durectory but not yet in the Staging Area (Intermediate place)
+
+=> in order to add it in the staging area and to stop tracking changes in it we have to use command  ...
+
+//git add filename.extension command  is used in order to add it in the staging area and to stop tracking changes.
+  => git add chapter1.txt in this case
+
+Now if we use git status command again it will show :
+skand@ShiwaniKandpal MINGW64 /d/D-drive/Complete 20224 Web Development Bootcamp - Udemy/git github and version control-new-11-09-24/Story
+
+$ git status
+On branch main
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+        new file:   chapter1.txt
+
+
+--- Similarly we will add chapter2.txt, chapter3.txt and chapter4.txt in staging area of working directory by using git add command
+
+
+
+Below are the commands after the command written in  chapter3.txt File in continuation with chapter2.txt file.
+
+
+//Here we have added chapter2.txt, chapter3.txt and chapter4.txt in a similar way we added chapter1.txt and then we checked status of files in working directory using git status command and all the file should be shown in green colour which means all the files are in Staging Area of Working Directory and are Ready to be Committed...
+
+
+
+
+skand@ShiwaniKandpal MINGW64 /d/D-drive/Complete 20224 Web Development Bootcamp - Udemy/git github and version control-new-11-09-24/Story
+$ git add chapter2.txt
+
+skand@ShiwaniKandpal MINGW64 /d/D-drive/Complete 20224 Web Development Bootcamp - Udemy/git github and version control-new-11-09-24/Story
+$ git status
+On branch main
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+        new file:   chapter1.txt
+        new file:   chapter2.txt
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        chapter3.txt
+        chapter4.txt
+
+
+skand@ShiwaniKandpal MINGW64 /d/D-drive/Complete 20224 Web Development Bootcamp - Udemy/git github and version control-new-11-09-24/Story
+$ git add chapter3.txt chapter4.txt
+
+skand@ShiwaniKandpal MINGW64 /d/D-drive/Complete 20224 Web Development Bootcamp - Udemy/git github and version control-new-11-09-24/Story
+$ git status
+On branch main
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+        new file:   chapter1.txt
+        new file:   chapter2.txt
+        new file:   chapter3.txt
+        new file:   chapter4.txt
+
+
+skand@ShiwaniKandpal MINGW64 /d/D-drive/Complete 20224 Web Development Bootcamp - Udemy/git github and version control-new-11-09-24/Story
+$ git commit -m "Complete Chapter 1"
+[main (root-commit) 46f4854] Complete Chapter 1
+ 4 files changed, 154 insertions(+)
+ create mode 100644 chapter1.txt
+ create mode 100644 chapter2.txt
+ create mode 100644 chapter3.txt
+ create mode 100644 chapter4.txt
+
+skand@ShiwaniKandpal MINGW64 /d/D-drive/Complete 20224 Web Development Bootcamp - Udemy/git github and version control-new-11-09-24/Story
+$ git log 
+commit 46f485437f4326901b51b3cd7d272081ceaac854 (HEAD -> main)
+Author: Shiwani <kandpalshiwani1999@gmail.com>
+Date:   Fri Jul 5 14:23:03 2024 +0530
+
+    Complete Chapter 1
+
+skand@ShiwaniKandpal MINGW64 /d/D-drive/Complete 20224 Web Development Bootcamp - Udemy/git github and version control-new-11-09-24/Story
+$ git diff chapter2.txt
+
+skand@ShiwaniKandpal MINGW64 /d/D-drive/Complete 20224 Web Development Bootcamp - Udemy/git github and version control-new-11-09-24/Story
+$ git checkout chapter2.txt
+Updated 1 path from the index
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// git commit -m  command -m flag is used to add a commit message, commit message is really imp as it helps to track of what changes have been made in each commit. So whenever you create a new save point , you have to be as explicit as possible about what changes were made between the last save point and the current save point.
+
+=> Here we can write "Initial commit" as  message for the initial commit which shows that this is our starting point, 
+Alternatively we can be slightly more specific by writing commit message as "Complete Chapter 1" 
+
+
+Since i have already add all 4 chapters to staging are then i can write
+git commit -m "All Chapters Complete"  in the commit message.
+=> commit messages are always written in the present tense.
+
+
+
+
+
+
